@@ -1,0 +1,13 @@
+[package]
+name = "zsh-alias-tips-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Codeium <support@codeium.com>"]
+description = "A Zsh plugin to help remembering shell aliases and Git aliases"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+colored = "2.0"
+regex = "1.10"
